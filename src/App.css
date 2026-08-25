@@ -1,0 +1,13 @@
+body {
+    background-color: red !important;
+}
+
+
+:root {
+    --color-primary: #e6266f;
+    --color-primary-dark: #c01f5c;
+    --color-bg: #0f0f0f;
+    --color-surface: #1a1a1a;
+    --color-text: #ffffff;
+    --color-text-muted: #999999;
+}
