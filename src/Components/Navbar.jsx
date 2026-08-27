@@ -11,8 +11,8 @@ function Navbar() {
         </figure>
         <ul className='nav__links'>
             <li><Link className='nav__link' to="/">Home</Link></li>
-            <li><Link className='nav__link' to="/contact">Contact</Link></li>
-            <li><Link className='nav__link' to="/Home"><span className='Nav__link--special'>Search Movies</span></Link></li>
+            <li><Link className='nav__link' to="/aboutus">About us </Link></li>
+            <li><Link className='nav__link' to="/Home/over"><span className='Nav__link--special'>Search Movies</span></Link></li>
         </ul>
         </div>
     )

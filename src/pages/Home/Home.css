@@ -4,7 +4,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     max-width: 1100px;
-    margin: 40px auto;
+    margin: 0 auto;
     padding: 0 24px;
 }
 
@@ -185,4 +185,39 @@ body {
     margin: 0;
     color: var(--color-text);
     font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.movie__notfound {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.movie__notfound-img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.movie__notfound-img:hover{
+    transform: scale(110%);
+}
+
+.movie__notfound-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.movie__notfound-text {
+    font-size: 14px;
+    color: #999;
+    max-width: 400px;
+    line-height: 1.6;
 }
